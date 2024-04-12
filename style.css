@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headDiv{
+    /* border: 1px solid black; */
+    margin: 50px;
+    width: 800px;
+    height: 50px;
+    margin: 50px auto;
+    background-color: rgb(25, 209, 255);
+}
+h1{
+    text-align: center;
+    line-height: 50px;
+    color: rgb(0, 0, 0);
+}
+.message{
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 800px;
+    height: 300px;
+}
+#text{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: 16px;
+}
+.counter{
+    margin: 40px auto;
+    background-color: rgb(25, 209, 255);
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 2px;
+    line-height: 50px;
+    color: rgb(0, 0, 0);
+}
+.reset{
+    margin: auto;
+    width: 100px;
+}
+#resetBtn{
+    width: 100%;
+    background-color: rgb(25, 209, 255);
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
